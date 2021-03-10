@@ -2,7 +2,11 @@ import React, { useState, useEffect } from "react";
 import './App.css';
 import Cover from "./components/Cover";
 import Navbar from "./components/Navbar/Navbar";
-import About from "./components/about/About"
+import About from "./components/about/About";
+import Slider from './components/slider/Slider';
+import Info from './components/info/info';
+import Footer from './components/footer/footer';
+
 function App(){
   
     const [scrollHeight,setScrollHeight]= useState(0);
@@ -24,6 +28,9 @@ function App(){
             <Navbar isScrolling ={scrollHeight}/>
             <Cover />
             <About />
+            <Slider />
+            <Info />
+            <Footer />
         </div>
     );
 }
