@@ -21,3 +21,8 @@
     cursor: pointer;
 
 }
+
+.navbar-logo > img{
+    margin-top: 20px;
+    height: 40px;
+}

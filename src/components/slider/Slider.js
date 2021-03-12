@@ -8,7 +8,7 @@ const slider = () => {
     return (
         <div className="carousel-container">
             <div className="carousel-title">
-                <h2>My project</h2>
+                <h2>Portfolio</h2>
             </div>
 
             <Carousel
@@ -20,6 +20,13 @@ const slider = () => {
                 offset={50}
                 itemWidth={400}
                 slides = {slides}
+                breakpoints ={{
+                    960:{
+                        sliderPerPage:1,
+                        arrows:false,
+                        itemWidth:250,
+                    }
+                }}
                 />
         </div>
     )

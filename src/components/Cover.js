@@ -6,8 +6,8 @@ export const Cover = () => {
     return (
         <div className="cover-container">
             <video className="video" src={CoverVideo} autoPlay loop muted />
-            <h1>Quipu</h1>
-            <p>Web | Mobile | Developer</p>
+            
+            <p>Web | Mobile | UX/UI Design</p>
         </div>
     );
 };
